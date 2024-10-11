@@ -9,6 +9,12 @@ const printForecast = function(arr){
 
 }
 
-print
+function printForecast2(arr){
+    let i = 0;
+    while(i<arr.length){
+        console.log(`${arr[i]}C in ${i+1} days`);
+        i++;
+    }
+}
 
 printForecast(arr);
