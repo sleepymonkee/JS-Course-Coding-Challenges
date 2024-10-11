@@ -9,4 +9,6 @@ const printForecast = function(arr){
 
 }
 
+print
+
 printForecast(arr);
