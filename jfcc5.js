@@ -1,13 +1,13 @@
-const calcAverage = (score1, score2, score3) => (score1 + score2 + score3)/3;
+const calcAverage = (score1, score2, score3) => (score1 + score2 + score3) / 3;
 
-function checkWinner(scoreDolphins, scoreKoalas){
-    if(scoreDolphins>scoreKoalas){
-        console.log(`Dolphins win (${scoreDolphins} vs. ${scoreKoalas})`);
-    }else if(scoreKoalas>scoreDolphins){
-        console.log(`Koalas win (${scoreKoalas} vs. ${scoreDolphins})`);
-    }else{
-        console.log(`Draw`);
-    }
+function checkWinner(scoreDolphins, scoreKoalas) {
+  if (scoreDolphins > scoreKoalas) {
+    console.log(`Dolphins win (${scoreDolphins} vs. ${scoreKoalas})`);
+  } else if (scoreKoalas > scoreDolphins) {
+    console.log(`Koalas win (${scoreKoalas} vs. ${scoreDolphins})`);
+  } else {
+    console.log(`Draw`);
+  }
 }
 
 const scoreDolphins = calcAverage(44, 23, 71);
